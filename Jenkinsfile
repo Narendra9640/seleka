@@ -20,7 +20,6 @@ pipeline {
     }
     post {
         always {
-            emailext body: 'Summery demo', subject: 'Alert-jenkins', to: 'bnarenda340@gmail.com'
-        }
+emailext body: 'Summery demo', subject: 'Alert-jenkins', to: 'bnarendra340@gmail.com'        }
     }
 }
